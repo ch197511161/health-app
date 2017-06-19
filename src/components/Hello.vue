@@ -15,8 +15,7 @@ import axios from 'axios'
 // var aa = {}
 var instance = axios.create({
   baseURL: 'http://127.0.0.1:10010/',
-  timeout: 1000,
-  headers: {'X-Custom-Header': 'foobar'}
+  timeout: 1000
 })
 export default {
   data () {
